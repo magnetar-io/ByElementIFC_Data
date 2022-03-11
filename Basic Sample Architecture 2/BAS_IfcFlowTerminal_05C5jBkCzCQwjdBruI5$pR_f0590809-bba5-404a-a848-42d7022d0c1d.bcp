@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<bimcollabprojectfile>
+    <version>1</version>
+    <applicationversion>Win - Version: 5.2 (build 5.2.20.24)</applicationversion>
+</bimcollabprojectfile>
+
+<project>
+    <coordinatedorigin>0.0000000000000000;0.0000000000000000;0.0000000000000000</coordinatedorigin>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcFlowTerminal_05C5jBkCzCQwjdBruI5$pR_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>3.40505e+06</filesize>
+        <timestamp>2022-02-17T13:46:52</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcFlowTerminal_05C5jBkCzCQwjdBruI5$qW_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>3.40505e+06</filesize>
+        <timestamp>2022-02-17T13:46:59</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcBuildingElementProxy_1DaGnOS6v2iOJfBoPtVOcK_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>1.02372e+06</filesize>
+        <timestamp>2022-02-17T13:46:25</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcLightFixtureType_38BWtPCUX0VgAKmmGnoKhI_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>594374</filesize>
+        <timestamp>2022-02-17T13:46:38</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcLightFixtureType_3V56hJfNH1WxFTflPOcunz_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>594200</filesize>
+        <timestamp>2022-02-17T13:46:33</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcLightFixtureType_38BWtPCUX0VgAKmmGnoKhJ_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>594200</filesize>
+        <timestamp>2022-02-17T13:46:36</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcLightFixtureType_38BWtPCUX0VgAKmmGnoKhS_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>594200</filesize>
+        <timestamp>2022-02-17T13:46:41</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcLightFixtureType_38BWtPCUX0VgAKmmGnoKeE_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>593944</filesize>
+        <timestamp>2022-02-17T13:46:45</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcLightFixtureType_38BWtPCUX0VgAKmmGnoKgM_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>593716</filesize>
+        <timestamp>2022-02-17T13:46:35</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcLightFixtureType_38BWtPCUX0VgAKmmGnoKhT_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>593688</filesize>
+        <timestamp>2022-02-17T13:46:40</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcLightFixtureType_38BWtPCUX0VgAKmmGnoKeF_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>593533</filesize>
+        <timestamp>2022-02-17T13:46:43</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcBuildingElementProxy_0Qn0xDcrP0Ie69cIIE3wtB_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>451460</filesize>
+        <timestamp>2022-02-17T13:46:16</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcBuildingElementProxy_2wm6PO6TX9IxXwLP21Hyo6_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>451457</filesize>
+        <timestamp>2022-02-17T13:47:12</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcBuildingElementProxy_2wm6PO6TX9IxXwLP21Hz7i_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>451457</filesize>
+        <timestamp>2022-02-17T13:47:11</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcBuildingElementProxy_0H7vgQcNjEo8efFHzwVpwh_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>451450</filesize>
+        <timestamp>2022-02-17T13:47:09</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\BAS_IfcFurniture_1hb7CWkynF4vPDja0y_oQN_f0590809-bba5-404a-a848-42d7022d0c1d.Ifc</filepath>
+        <filesize>342814</filesize>
+        <timestamp>2022-02-17T13:47:31</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename>001-00</originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+    <model>
+        <filepath>B:\Git\ByElementIFC_Data\Basic Sample Architecture 2\0006_IFC4_Export_IfcFurniture_15R2aaoRL3$9kuhoIz2GAT_5217bad8-9596-42ce-aa66-6432abdc5660.Ifc</filepath>
+        <filesize>253958</filesize>
+        <timestamp>2022-02-17T13:57:31</timestamp>
+        <prefix></prefix>
+        <modelloaded>true</modelloaded>
+        <online>false</online>
+        <originalfilename></originalfilename>
+        <description>ViewDefinition [ReferenceView_V1.2], ExchangeRequirement [Architecture]</description>
+        <implementationlevel>2;1</implementationlevel>
+        <author></author>
+        <organization></organization>
+        <originatingsystem>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</originatingsystem>
+        <authorization></authorization>
+        <fileschema>IFC4</fileschema>
+        <discipline></discipline>
+    </model>
+</project>
