@@ -1,0 +1,2566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<doc:iso_10303_28 xmlns:doc="urn:oid:1.0.10303.28.2.1.3" version="2.0" xmlns:exp="urn:oid:1.0.10303.28.2.1.1" xmlns:ifc="http://www.iai-tech.org/ifcXML/IFC2x2/FINAL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oid:1.0.10303.28.2.1.1 ex.xsd">
+
+  <exp:iso_10303_28_header>
+    <exp:name>2009-01</exp:name>
+    <exp:author></exp:author>
+    <exp:organization></exp:organization>
+    <exp:authorization></exp:authorization>
+    <exp:originating_system>22.1.10.541 - Exporter 21.2.1.0 - Alternate UI 21.2.1.0</exp:originating_system>
+    <exp:preprocessor_version>Autodesk Revit 2022</exp:preprocessor_version>
+    <exp:documentation></exp:documentation>
+  </exp:iso_10303_28_header>
+
+  <doc:express external="" id="exp_1" schema_name="IFC4"/>
+
+  <doc:schema_population determination_method="SECTION_BOUNDARY" governed_sections="uos_1" governing_schema="exp_1"/>
+
+  <ifc:uos configuration="i-ifc2x3" description="" edo="" id="uos_1" schema="exp_1" xmlns="http://www.iai-tech.org/ifcXML/IFC2x3/FINAL" xsi:schemaLocation="http://www.iai-tech.org/ifcXML/IFC2x3/FINAL http://www.iai-tech.org/ifcXML/IFC2x3/FINAL/IFC2x3.xsd">
+    <IfcOrganization id="i1">
+      <Name>Autodesk Revit 2022 (ENU)</Name>
+    </IfcOrganization>
+    <IfcApplication id="i2">
+      <ApplicationDeveloper>
+        <IfcOrganization ref="i1" xsi:nil="true"/>
+      </ApplicationDeveloper>
+      <Version>2022</Version>
+      <ApplicationFullName>Autodesk Revit 2022 (ENU)</ApplicationFullName>
+      <ApplicationIdentifier>Revit</ApplicationIdentifier>
+    </IfcApplication>
+    <IfcCartesianPoint id="i3">
+      <Coordinates exp:cType="list">
+        <IfcLengthMeasure exp:pos="0">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="1">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="2">0</IfcLengthMeasure>
+      </Coordinates>
+    </IfcCartesianPoint>
+    <IfcCartesianPoint id="i4">
+      <Coordinates exp:cType="list">
+        <IfcLengthMeasure exp:pos="0">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="1">0</IfcLengthMeasure>
+      </Coordinates>
+    </IfcCartesianPoint>
+    <IfcDirection id="i5">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">1</IfcReal>
+        <IfcReal exp:pos="1">0</IfcReal>
+        <IfcReal exp:pos="2">0</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcDirection id="i6">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">-1</IfcReal>
+        <IfcReal exp:pos="1">0</IfcReal>
+        <IfcReal exp:pos="2">0</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcDirection id="i7">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">0</IfcReal>
+        <IfcReal exp:pos="1">1</IfcReal>
+        <IfcReal exp:pos="2">0</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcDirection id="i8">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">0</IfcReal>
+        <IfcReal exp:pos="1">-1</IfcReal>
+        <IfcReal exp:pos="2">0</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcDirection id="i9">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">0</IfcReal>
+        <IfcReal exp:pos="1">0</IfcReal>
+        <IfcReal exp:pos="2">1</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcDirection id="i10">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">0</IfcReal>
+        <IfcReal exp:pos="1">0</IfcReal>
+        <IfcReal exp:pos="2">-1</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcDirection id="i11">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">1</IfcReal>
+        <IfcReal exp:pos="1">0</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcDirection id="i12">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">-1</IfcReal>
+        <IfcReal exp:pos="1">0</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcDirection id="i13">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">0</IfcReal>
+        <IfcReal exp:pos="1">1</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcDirection id="i14">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">0</IfcReal>
+        <IfcReal exp:pos="1">-1</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcAxis2Placement3D id="i15">
+      <Location>
+        <IfcCartesianPoint ref="i3" xsi:nil="true"/>
+      </Location>
+    </IfcAxis2Placement3D>
+    <IfcLocalPlacement id="i16">
+      <PlacementRelTo>
+        <IfcLocalPlacement ref="i219" xsi:nil="true"/>
+      </PlacementRelTo>
+      <RelativePlacement>
+        <IfcAxis2Placement3D ref="i15" xsi:nil="true"/>
+      </RelativePlacement>
+    </IfcLocalPlacement>
+    <IfcPerson id="i17">
+      <FamilyName></FamilyName>
+      <GivenName>gregschleusnerhok</GivenName>
+    </IfcPerson>
+    <IfcOrganization id="i18">
+      <Name></Name>
+      <Description></Description>
+    </IfcOrganization>
+    <IfcPersonAndOrganization id="i19">
+      <ThePerson>
+        <IfcPerson ref="i17" xsi:nil="true"/>
+      </ThePerson>
+      <TheOrganization>
+        <IfcOrganization ref="i18" xsi:nil="true"/>
+      </TheOrganization>
+    </IfcPersonAndOrganization>
+    <IfcOwnerHistory id="i20">
+      <OwningUser>
+        <IfcPersonAndOrganization ref="i19" xsi:nil="true"/>
+      </OwningUser>
+      <OwningApplication>
+        <IfcApplication ref="i2" xsi:nil="true"/>
+      </OwningApplication>
+      <ChangeAction>nochange</ChangeAction>
+      <LastModifiedDate>2147483647</LastModifiedDate>
+      <CreationDate>1644847084</CreationDate>
+    </IfcOwnerHistory>
+    <IfcSIUnit id="i21">
+      <UnitType>lengthunit</UnitType>
+      <Prefix>milli</Prefix>
+      <Name>metre</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i22">
+      <UnitType>lengthunit</UnitType>
+      <Name>metre</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i23">
+      <UnitType>areaunit</UnitType>
+      <Name>square_metre</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i24">
+      <UnitType>volumeunit</UnitType>
+      <Name>cubic_metre</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i25">
+      <UnitType>planeangleunit</UnitType>
+      <Name>radian</Name>
+    </IfcSIUnit>
+    <IfcDimensionalExponents id="i26">
+      <LengthExponent>0</LengthExponent>
+      <MassExponent>0</MassExponent>
+      <TimeExponent>0</TimeExponent>
+      <ElectricCurrentExponent>0</ElectricCurrentExponent>
+      <ThermodynamicTemperatureExponent>0</ThermodynamicTemperatureExponent>
+      <AmountOfSubstanceExponent>0</AmountOfSubstanceExponent>
+      <LuminousIntensityExponent>0</LuminousIntensityExponent>
+    </IfcDimensionalExponents>
+    <IfcMeasureWithUnit id="i27">
+      <ValueComponent>
+        <ifcratiomeasure-wrapper>0.017453292519943278</ifcratiomeasure-wrapper>
+      </ValueComponent>
+      <UnitComponent>
+        <IfcSIUnit ref="i25" xsi:nil="true"/>
+      </UnitComponent>
+    </IfcMeasureWithUnit>
+    <IfcConversionBasedUnit id="i28">
+      <Dimensions>
+        <IfcDimensionalExponents ref="i26" xsi:nil="true"/>
+      </Dimensions>
+      <UnitType>planeangleunit</UnitType>
+      <Name>DEGREE</Name>
+      <ConversionFactor>
+        <IfcMeasureWithUnit ref="i27" xsi:nil="true"/>
+      </ConversionFactor>
+    </IfcConversionBasedUnit>
+    <IfcSIUnit id="i29">
+      <UnitType>massunit</UnitType>
+      <Prefix>kilo</Prefix>
+      <Name>gram</Name>
+    </IfcSIUnit>
+    <IfcDerivedUnitElement id="i30">
+      <Unit>
+        <IfcSIUnit ref="i29" xsi:nil="true"/>
+      </Unit>
+      <Exponent>1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i31">
+      <Unit>
+        <IfcSIUnit ref="i22" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-3</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnit id="i32">
+      <Elements exp:cType="set">
+        <IfcDerivedUnitElement ref="i30" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i31" xsi:nil="true"/>
+      </Elements>
+      <UnitType>massdensityunit</UnitType>
+    </IfcDerivedUnit>
+    <IfcDerivedUnitElement id="i33">
+      <Unit>
+        <IfcSIUnit ref="i22" xsi:nil="true"/>
+      </Unit>
+      <Exponent>4</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnit id="i34">
+      <Elements exp:cType="set">
+        <IfcDerivedUnitElement ref="i33" xsi:nil="true"/>
+      </Elements>
+      <UnitType>momentofinertiaunit</UnitType>
+    </IfcDerivedUnit>
+    <IfcSIUnit id="i35">
+      <UnitType>timeunit</UnitType>
+      <Name>second</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i36">
+      <UnitType>frequencyunit</UnitType>
+      <Name>hertz</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i37">
+      <UnitType>thermodynamictemperatureunit</UnitType>
+      <Name>kelvin</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i38">
+      <UnitType>thermodynamictemperatureunit</UnitType>
+      <Name>degree_celsius</Name>
+    </IfcSIUnit>
+    <IfcDerivedUnitElement id="i39">
+      <Unit>
+        <IfcSIUnit ref="i29" xsi:nil="true"/>
+      </Unit>
+      <Exponent>1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i40">
+      <Unit>
+        <IfcSIUnit ref="i37" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i41">
+      <Unit>
+        <IfcSIUnit ref="i35" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-3</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnit id="i42">
+      <Elements exp:cType="set">
+        <IfcDerivedUnitElement ref="i39" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i40" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i41" xsi:nil="true"/>
+      </Elements>
+      <UnitType>thermaltransmittanceunit</UnitType>
+    </IfcDerivedUnit>
+    <IfcSIUnit id="i43">
+      <UnitType>lengthunit</UnitType>
+      <Prefix>deci</Prefix>
+      <Name>metre</Name>
+    </IfcSIUnit>
+    <IfcDerivedUnitElement id="i44">
+      <Unit>
+        <IfcSIUnit ref="i22" xsi:nil="true"/>
+      </Unit>
+      <Exponent>3</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i45">
+      <Unit>
+        <IfcSIUnit ref="i35" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnit id="i46">
+      <Elements exp:cType="set">
+        <IfcDerivedUnitElement ref="i44" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i45" xsi:nil="true"/>
+      </Elements>
+      <UnitType>volumetricflowrateunit</UnitType>
+    </IfcDerivedUnit>
+    <IfcSIUnit id="i47">
+      <UnitType>electriccurrentunit</UnitType>
+      <Name>ampere</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i48">
+      <UnitType>electricvoltageunit</UnitType>
+      <Name>volt</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i49">
+      <UnitType>powerunit</UnitType>
+      <Name>watt</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i50">
+      <UnitType>forceunit</UnitType>
+      <Prefix>kilo</Prefix>
+      <Name>newton</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i51">
+      <UnitType>illuminanceunit</UnitType>
+      <Name>lux</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i52">
+      <UnitType>luminousfluxunit</UnitType>
+      <Name>lumen</Name>
+    </IfcSIUnit>
+    <IfcSIUnit id="i53">
+      <UnitType>luminousintensityunit</UnitType>
+      <Name>candela</Name>
+    </IfcSIUnit>
+    <IfcDerivedUnitElement id="i54">
+      <Unit>
+        <IfcSIUnit ref="i29" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i55">
+      <Unit>
+        <IfcSIUnit ref="i22" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-2</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i56">
+      <Unit>
+        <IfcSIUnit ref="i35" xsi:nil="true"/>
+      </Unit>
+      <Exponent>3</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i57">
+      <Unit>
+        <IfcSIUnit ref="i52" xsi:nil="true"/>
+      </Unit>
+      <Exponent>1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnit id="i58">
+      <Elements exp:cType="set">
+        <IfcDerivedUnitElement ref="i54" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i55" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i56" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i57" xsi:nil="true"/>
+      </Elements>
+      <UnitType>userdefined</UnitType>
+      <UserDefinedType>Luminous Efficacy</UserDefinedType>
+    </IfcDerivedUnit>
+    <IfcDerivedUnitElement id="i59">
+      <Unit>
+        <IfcSIUnit ref="i22" xsi:nil="true"/>
+      </Unit>
+      <Exponent>1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i60">
+      <Unit>
+        <IfcSIUnit ref="i35" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnit id="i61">
+      <Elements exp:cType="set">
+        <IfcDerivedUnitElement ref="i59" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i60" xsi:nil="true"/>
+      </Elements>
+      <UnitType>linearvelocityunit</UnitType>
+    </IfcDerivedUnit>
+    <IfcSIUnit id="i62">
+      <UnitType>pressureunit</UnitType>
+      <Name>pascal</Name>
+    </IfcSIUnit>
+    <IfcDerivedUnitElement id="i63">
+      <Unit>
+        <IfcSIUnit ref="i22" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-2</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i64">
+      <Unit>
+        <IfcSIUnit ref="i29" xsi:nil="true"/>
+      </Unit>
+      <Exponent>1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i65">
+      <Unit>
+        <IfcSIUnit ref="i35" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-2</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnit id="i66">
+      <Elements exp:cType="set">
+        <IfcDerivedUnitElement ref="i63" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i64" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i65" xsi:nil="true"/>
+      </Elements>
+      <UnitType>userdefined</UnitType>
+      <UserDefinedType>Friction Loss</UserDefinedType>
+    </IfcDerivedUnit>
+    <IfcDerivedUnitElement id="i67">
+      <Unit>
+        <IfcSIUnit ref="i29" xsi:nil="true"/>
+      </Unit>
+      <Exponent>1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i68">
+      <Unit>
+        <IfcSIUnit ref="i22" xsi:nil="true"/>
+      </Unit>
+      <Exponent>1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i69">
+      <Unit>
+        <IfcSIUnit ref="i35" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-2</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i70">
+      <Unit>
+        <IfcSIUnit ref="i22" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnit id="i71">
+      <Elements exp:cType="set">
+        <IfcDerivedUnitElement ref="i67" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i68" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i69" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i70" xsi:nil="true"/>
+      </Elements>
+      <UnitType>linearforceunit</UnitType>
+    </IfcDerivedUnit>
+    <IfcDerivedUnitElement id="i72">
+      <Unit>
+        <IfcSIUnit ref="i29" xsi:nil="true"/>
+      </Unit>
+      <Exponent>1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i73">
+      <Unit>
+        <IfcSIUnit ref="i22" xsi:nil="true"/>
+      </Unit>
+      <Exponent>1</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i74">
+      <Unit>
+        <IfcSIUnit ref="i35" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-2</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnitElement id="i75">
+      <Unit>
+        <IfcSIUnit ref="i22" xsi:nil="true"/>
+      </Unit>
+      <Exponent>-2</Exponent>
+    </IfcDerivedUnitElement>
+    <IfcDerivedUnit id="i76">
+      <Elements exp:cType="set">
+        <IfcDerivedUnitElement ref="i72" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i73" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i74" xsi:nil="true"/>
+        <IfcDerivedUnitElement ref="i75" xsi:nil="true"/>
+      </Elements>
+      <UnitType>planarforceunit</UnitType>
+    </IfcDerivedUnit>
+    <IfcUnitAssignment id="i77">
+      <Units exp:cType="set">
+        <IfcSIUnit ref="i21" xsi:nil="true"/>
+        <IfcSIUnit ref="i23" xsi:nil="true"/>
+        <IfcSIUnit ref="i24" xsi:nil="true"/>
+        <IfcConversionBasedUnit ref="i28" xsi:nil="true"/>
+        <IfcSIUnit ref="i29" xsi:nil="true"/>
+        <IfcDerivedUnit ref="i32" xsi:nil="true"/>
+        <IfcDerivedUnit ref="i34" xsi:nil="true"/>
+        <IfcSIUnit ref="i35" xsi:nil="true"/>
+        <IfcSIUnit ref="i36" xsi:nil="true"/>
+        <IfcSIUnit ref="i38" xsi:nil="true"/>
+        <IfcDerivedUnit ref="i42" xsi:nil="true"/>
+        <IfcDerivedUnit ref="i46" xsi:nil="true"/>
+        <IfcSIUnit ref="i47" xsi:nil="true"/>
+        <IfcSIUnit ref="i48" xsi:nil="true"/>
+        <IfcSIUnit ref="i49" xsi:nil="true"/>
+        <IfcSIUnit ref="i50" xsi:nil="true"/>
+        <IfcSIUnit ref="i51" xsi:nil="true"/>
+        <IfcSIUnit ref="i52" xsi:nil="true"/>
+        <IfcSIUnit ref="i53" xsi:nil="true"/>
+        <IfcDerivedUnit ref="i58" xsi:nil="true"/>
+        <IfcDerivedUnit ref="i61" xsi:nil="true"/>
+        <IfcSIUnit ref="i62" xsi:nil="true"/>
+        <IfcDerivedUnit ref="i66" xsi:nil="true"/>
+        <IfcDerivedUnit ref="i71" xsi:nil="true"/>
+        <IfcDerivedUnit ref="i76" xsi:nil="true"/>
+      </Units>
+    </IfcUnitAssignment>
+    <IfcAxis2Placement3D id="i78">
+      <Location>
+        <IfcCartesianPoint ref="i3" xsi:nil="true"/>
+      </Location>
+    </IfcAxis2Placement3D>
+    <IfcDirection id="i79">
+      <DirectionRatios exp:cType="list">
+        <IfcReal exp:pos="0">6.1230317691118863E-17</IfcReal>
+        <IfcReal exp:pos="1">1</IfcReal>
+      </DirectionRatios>
+    </IfcDirection>
+    <IfcGeometricRepresentationContext id="i80">
+      <ContextType>Model</ContextType>
+      <CoordinateSpaceDimension>3</CoordinateSpaceDimension>
+      <Precision>0.01</Precision>
+      <WorldCoordinateSystem>
+        <IfcAxis2Placement3D ref="i78" xsi:nil="true"/>
+      </WorldCoordinateSystem>
+      <TrueNorth>
+        <IfcDirection ref="i79" xsi:nil="true"/>
+      </TrueNorth>
+    </IfcGeometricRepresentationContext>
+    <IfcGeometricRepresentationSubContext id="i81">
+      <ContextIdentifier>Axis</ContextIdentifier>
+      <ContextType>Model</ContextType>
+      <ParentContext>
+        <IfcGeometricRepresentationContext ref="i80" xsi:nil="true"/>
+      </ParentContext>
+      <TargetScale>NAN(SNAN)</TargetScale>
+      <TargetView>graph_view</TargetView>
+    </IfcGeometricRepresentationSubContext>
+    <IfcGeometricRepresentationSubContext id="i82">
+      <ContextIdentifier>Body</ContextIdentifier>
+      <ContextType>Model</ContextType>
+      <ParentContext>
+        <IfcGeometricRepresentationContext ref="i80" xsi:nil="true"/>
+      </ParentContext>
+      <TargetScale>NAN(SNAN)</TargetScale>
+      <TargetView>model_view</TargetView>
+    </IfcGeometricRepresentationSubContext>
+    <IfcGeometricRepresentationSubContext id="i83">
+      <ContextIdentifier>Box</ContextIdentifier>
+      <ContextType>Model</ContextType>
+      <ParentContext>
+        <IfcGeometricRepresentationContext ref="i80" xsi:nil="true"/>
+      </ParentContext>
+      <TargetScale>NAN(SNAN)</TargetScale>
+      <TargetView>model_view</TargetView>
+    </IfcGeometricRepresentationSubContext>
+    <IfcGeometricRepresentationSubContext id="i84">
+      <ContextIdentifier>FootPrint</ContextIdentifier>
+      <ContextType>Model</ContextType>
+      <ParentContext>
+        <IfcGeometricRepresentationContext ref="i80" xsi:nil="true"/>
+      </ParentContext>
+      <TargetScale>NAN(SNAN)</TargetScale>
+      <TargetView>model_view</TargetView>
+    </IfcGeometricRepresentationSubContext>
+    <IfcProjectedCRS id="i85">
+      <Name>EPSG:3857</Name>
+    </IfcProjectedCRS>
+    <IfcMapConversion id="i86">
+      <SourceCRS>
+        <IfcGeometricRepresentationContext ref="i80" xsi:nil="true"/>
+      </SourceCRS>
+      <TargetCRS>
+        <IfcProjectedCRS ref="i85" xsi:nil="true"/>
+      </TargetCRS>
+      <Eastings>0</Eastings>
+      <Northings>0</Northings>
+      <OrthogonalHeight>0</OrthogonalHeight>
+      <XAxisAbscissa>1</XAxisAbscissa>
+      <XAxisOrdinate>6.1230317691118863E-17</XAxisOrdinate>
+      <Scale>NAN(SNAN)</Scale>
+    </IfcMapConversion>
+    <IfcProject id="i87">
+      <GlobalId>3bmyaIWCvEHufVx1c33vn0</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>2009-01</Name>
+      <LongName>Technical School</LongName>
+      <Phase>Initial Draft</Phase>
+      <RepresentationContexts exp:cType="set">
+        <IfcGeometricRepresentationContext ref="i80" xsi:nil="true"/>
+      </RepresentationContexts>
+      <UnitsInContext>
+        <IfcUnitAssignment ref="i77" xsi:nil="true"/>
+      </UnitsInContext>
+    </IfcProject>
+    <IfcPostalAddress id="i88">
+      <AddressLines exp:cType="list">
+        <IfcLabel exp:pos="0">123 Main Street, Anytown, MA 12345</IfcLabel>
+      </AddressLines>
+      <Town></Town>
+      <Region>Boston</Region>
+      <PostalCode></PostalCode>
+      <Country>MA&#xD;</Country>
+    </IfcPostalAddress>
+    <IfcBuilding id="i89">
+      <GlobalId>3bmyaIWCvEHufVx1c33vn1</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name></Name>
+      <ObjectPlacement>
+        <IfcLocalPlacement ref="i16" xsi:nil="true"/>
+      </ObjectPlacement>
+      <LongName></LongName>
+      <CompositionType>element</CompositionType>
+      <ElevationOfRefHeight>NAN(SNAN)</ElevationOfRefHeight>
+      <ElevationOfTerrain>NAN(SNAN)</ElevationOfTerrain>
+      <BuildingAddress>
+        <IfcPostalAddress ref="i88" xsi:nil="true"/>
+      </BuildingAddress>
+    </IfcBuilding>
+    <IfcCartesianPoint id="i90">
+      <Coordinates exp:cType="list">
+        <IfcLengthMeasure exp:pos="0">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="1">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="2">-2500</IfcLengthMeasure>
+      </Coordinates>
+    </IfcCartesianPoint>
+    <IfcAxis2Placement3D id="i91">
+      <Location>
+        <IfcCartesianPoint ref="i90" xsi:nil="true"/>
+      </Location>
+    </IfcAxis2Placement3D>
+    <IfcAxis2Placement3D id="i94">
+      <Location>
+        <IfcCartesianPoint ref="i3" xsi:nil="true"/>
+      </Location>
+    </IfcAxis2Placement3D>
+    <IfcLocalPlacement id="i95">
+      <PlacementRelTo>
+        <IfcLocalPlacement ref="i16" xsi:nil="true"/>
+      </PlacementRelTo>
+      <RelativePlacement>
+        <IfcAxis2Placement3D ref="i94" xsi:nil="true"/>
+      </RelativePlacement>
+    </IfcLocalPlacement>
+    <IfcBuildingStorey id="i96">
+      <GlobalId>3bmyaIWCvEHufVx1byyRCD</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>01 - Entry Level</Name>
+      <ObjectType>Level:8mm Head</ObjectType>
+      <ObjectPlacement>
+        <IfcLocalPlacement ref="i95" xsi:nil="true"/>
+      </ObjectPlacement>
+      <LongName>01 - Entry Level</LongName>
+      <CompositionType>element</CompositionType>
+      <Elevation>0</Elevation>
+    </IfcBuildingStorey>
+    <IfcCartesianPoint id="i97">
+      <Coordinates exp:cType="list">
+        <IfcLengthMeasure exp:pos="0">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="1">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="2">3800</IfcLengthMeasure>
+      </Coordinates>
+    </IfcCartesianPoint>
+    <IfcAxis2Placement3D id="i98">
+      <Location>
+        <IfcCartesianPoint ref="i97" xsi:nil="true"/>
+      </Location>
+    </IfcAxis2Placement3D>
+    <IfcCartesianPoint id="i101">
+      <Coordinates exp:cType="list">
+        <IfcLengthMeasure exp:pos="0">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="1">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="2">7600</IfcLengthMeasure>
+      </Coordinates>
+    </IfcCartesianPoint>
+    <IfcAxis2Placement3D id="i102">
+      <Location>
+        <IfcCartesianPoint ref="i101" xsi:nil="true"/>
+      </Location>
+    </IfcAxis2Placement3D>
+    <IfcCartesianPoint id="i105">
+      <Coordinates exp:cType="list">
+        <IfcLengthMeasure exp:pos="0">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="1">0</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="2">11400</IfcLengthMeasure>
+      </Coordinates>
+    </IfcCartesianPoint>
+    <IfcAxis2Placement3D id="i106">
+      <Location>
+        <IfcCartesianPoint ref="i105" xsi:nil="true"/>
+      </Location>
+    </IfcAxis2Placement3D>
+    <IfcAxis2Placement3D id="i109">
+      <Location>
+        <IfcCartesianPoint ref="i3" xsi:nil="true"/>
+      </Location>
+    </IfcAxis2Placement3D>
+    <IfcCartesianPointList2D id="i111">
+      <CoordList exp:cType="list">
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="0">
+          <IfcLengthMeasure exp:pos="0">-177.79999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-184.29999999999995</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="1">
+          <IfcLengthMeasure exp:pos="0">-160.29999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-184.29999999999995</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="2">
+          <IfcLengthMeasure exp:pos="0">-160.29999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-20.399999999999977</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="3">
+          <IfcLengthMeasure exp:pos="0">-160.1128627770461</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-18.022196131388686</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="4">
+          <IfcLengthMeasure exp:pos="0">-159.55605904768638</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-15.702941685500974</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="5">
+          <IfcLengthMeasure exp:pos="0">-158.64329916766329</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-13.499344403959039</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="6">
+          <IfcLengthMeasure exp:pos="0">-157.3970583144993</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-11.46566416515453</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="7">
+          <IfcLengthMeasure exp:pos="0">-155.84802307403564</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-9.6519769259645702</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="8">
+          <IfcLengthMeasure exp:pos="0">-154.03433583484571</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-8.1029416855008627</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="9">
+          <IfcLengthMeasure exp:pos="0">-152.00065559604124</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-6.8567008323368439</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="10">
+          <IfcLengthMeasure exp:pos="0">-149.79705831449931</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-5.9439409523136773</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="11">
+          <IfcLengthMeasure exp:pos="0">-147.4778038686116</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-5.3871372229538981</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="12">
+          <IfcLengthMeasure exp:pos="0">-145.10000000000008</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-5.1999999999999744</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="13">
+          <IfcLengthMeasure exp:pos="0">145.09999999999997</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-5.1999999999999469</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="14">
+          <IfcLengthMeasure exp:pos="0">147.47780386861129</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-5.3871372229538643</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="15">
+          <IfcLengthMeasure exp:pos="0">149.797058314499</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-5.9439409523135947</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="16">
+          <IfcLengthMeasure exp:pos="0">152.00065559604093</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-6.8567008323367151</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="17">
+          <IfcLengthMeasure exp:pos="0">154.03433583484542</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-8.1029416855006886</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="18">
+          <IfcLengthMeasure exp:pos="0">155.84802307403538</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-9.6519769259643518</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="19">
+          <IfcLengthMeasure exp:pos="0">157.39705831449908</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-11.465664165154276</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="20">
+          <IfcLengthMeasure exp:pos="0">158.64329916766309</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-13.499344403958752</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="21">
+          <IfcLengthMeasure exp:pos="0">159.55605904768623</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-15.702941685500663</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="22">
+          <IfcLengthMeasure exp:pos="0">160.11286277704605</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-18.022196131388355</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="23">
+          <IfcLengthMeasure exp:pos="0">160.29999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-20.399999999999874</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="24">
+          <IfcLengthMeasure exp:pos="0">160.29999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-184.29999999999995</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="25">
+          <IfcLengthMeasure exp:pos="0">177.79999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-184.29999999999995</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="26">
+          <IfcLengthMeasure exp:pos="0">177.79999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">184.30000000000004</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="27">
+          <IfcLengthMeasure exp:pos="0">160.29999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">184.30000000000004</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="28">
+          <IfcLengthMeasure exp:pos="0">160.29999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">20.399999999999952</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="29">
+          <IfcLengthMeasure exp:pos="0">160.11286277704605</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">18.02219613138854</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="30">
+          <IfcLengthMeasure exp:pos="0">159.55605904768632</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">15.702941685500845</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="31">
+          <IfcLengthMeasure exp:pos="0">158.64329916766317</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">13.499344403958929</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="32">
+          <IfcLengthMeasure exp:pos="0">157.39705831449916</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">11.465664165154443</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="33">
+          <IfcLengthMeasure exp:pos="0">155.8480230740355</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">9.6519769259645081</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="34">
+          <IfcLengthMeasure exp:pos="0">154.03433583484556</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">8.1029416855008289</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="35">
+          <IfcLengthMeasure exp:pos="0">152.0006555960411</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">6.8567008323368377</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="36">
+          <IfcLengthMeasure exp:pos="0">149.79705831449917</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">5.9439409523136986</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="37">
+          <IfcLengthMeasure exp:pos="0">147.47780386861149</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">5.3871372229539443</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="38">
+          <IfcLengthMeasure exp:pos="0">145.09999999999997</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">5.2000000000000464</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="39">
+          <IfcLengthMeasure exp:pos="0">-145.09999999999997</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">5.2000000000000233</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="40">
+          <IfcLengthMeasure exp:pos="0">-147.4778038686114</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">5.3871372229539336</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="41">
+          <IfcLengthMeasure exp:pos="0">-149.79705831449908</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">5.9439409523136799</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="42">
+          <IfcLengthMeasure exp:pos="0">-152.00065559604101</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">6.8567008323368128</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="43">
+          <IfcLengthMeasure exp:pos="0">-154.03433583484551</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">8.1029416855007916</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="44">
+          <IfcLengthMeasure exp:pos="0">-155.84802307403544</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">9.6519769259644654</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="45">
+          <IfcLengthMeasure exp:pos="0">-157.39705831449911</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">11.465664165154392</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="46">
+          <IfcLengthMeasure exp:pos="0">-158.64329916766312</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">13.499344403958871</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="47">
+          <IfcLengthMeasure exp:pos="0">-159.55605904768626</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">15.702941685500779</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="48">
+          <IfcLengthMeasure exp:pos="0">-160.11286277704605</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">18.022196131388473</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="49">
+          <IfcLengthMeasure exp:pos="0">-160.29999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">20.399999999999984</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="50">
+          <IfcLengthMeasure exp:pos="0">-160.29999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">184.30000000000004</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="51">
+          <IfcLengthMeasure exp:pos="0">-177.79999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">184.30000000000004</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+        <exp:aggregate-wrapper exp:cType="list" exp:pos="52">
+          <IfcLengthMeasure exp:pos="0">-177.79999999999998</IfcLengthMeasure>
+          <IfcLengthMeasure exp:pos="1">-184.29999999999995</IfcLengthMeasure>
+        </exp:aggregate-wrapper>
+      </CoordList>
+    </IfcCartesianPointList2D>
+    <IfcIndexedPolyCurve id="i112">
+      <Points>
+        <IfcCartesianPointList2D ref="i111" xsi:nil="true"/>
+      </Points>
+      <SelfIntersect>false</SelfIntersect>
+    </IfcIndexedPolyCurve>
+    <IfcArbitraryClosedProfileDef id="i113">
+      <ProfileType>area</ProfileType>
+      <ProfileName>UC356x368x129</ProfileName>
+      <OuterCurve>
+        <IfcIndexedPolyCurve ref="i112" xsi:nil="true"/>
+      </OuterCurve>
+    </IfcArbitraryClosedProfileDef>
+    <IfcAxis2Placement3D id="i114">
+      <Location>
+        <IfcCartesianPoint ref="i3" xsi:nil="true"/>
+      </Location>
+      <Axis>
+        <IfcDirection ref="i9" xsi:nil="true"/>
+      </Axis>
+      <RefDirection>
+        <IfcDirection ref="i8" xsi:nil="true"/>
+      </RefDirection>
+    </IfcAxis2Placement3D>
+    <IfcExtrudedAreaSolid id="i115">
+      <SweptArea>
+        <IfcArbitraryClosedProfileDef ref="i113" xsi:nil="true"/>
+      </SweptArea>
+      <Position>
+        <IfcAxis2Placement3D ref="i114" xsi:nil="true"/>
+      </Position>
+      <ExtrudedDirection>
+        <IfcDirection ref="i9" xsi:nil="true"/>
+      </ExtrudedDirection>
+      <Depth>3600.0000000011578</Depth>
+    </IfcExtrudedAreaSolid>
+    <IfcColourRgb id="i116">
+      <Red>0.96862745098039216</Red>
+      <Green>0.96862745098039216</Green>
+      <Blue>0.96862745098039216</Blue>
+    </IfcColourRgb>
+    <IfcSurfaceStyleRendering id="i117">
+      <SurfaceColour>
+        <IfcColourRgb ref="i116" xsi:nil="true"/>
+      </SurfaceColour>
+      <Transparency>0</Transparency>
+      <SpecularColour>
+        <ifcnormalisedratiomeasure-wrapper>0.5</ifcnormalisedratiomeasure-wrapper>
+      </SpecularColour>
+      <SpecularHighlight>
+        <ifcspecularexponent-wrapper>128</ifcspecularexponent-wrapper>
+      </SpecularHighlight>
+      <ReflectanceMethod>notdefined</ReflectanceMethod>
+    </IfcSurfaceStyleRendering>
+    <IfcSurfaceStyle id="i118">
+      <Name>Metal - Steel - 345 MPa</Name>
+      <Side>both</Side>
+      <Styles exp:cType="set">
+        <IfcSurfaceStyleRendering ref="i117" xsi:nil="true"/>
+      </Styles>
+    </IfcSurfaceStyle>
+    <IfcStyledItem id="i119">
+      <Item>
+        <IfcExtrudedAreaSolid ref="i115" xsi:nil="true"/>
+      </Item>
+      <Styles exp:cType="set">
+        <IfcSurfaceStyle ref="i118" xsi:nil="true"/>
+      </Styles>
+    </IfcStyledItem>
+    <IfcShapeRepresentation id="i120">
+      <ContextOfItems>
+        <IfcGeometricRepresentationSubContext ref="i82" xsi:nil="true"/>
+      </ContextOfItems>
+      <RepresentationIdentifier>Body</RepresentationIdentifier>
+      <RepresentationType>SweptSolid</RepresentationType>
+      <Items exp:cType="set">
+        <IfcExtrudedAreaSolid ref="i115" xsi:nil="true"/>
+      </Items>
+    </IfcShapeRepresentation>
+    <IfcAxis2Placement3D id="i121">
+      <Location>
+        <IfcCartesianPoint ref="i3" xsi:nil="true"/>
+      </Location>
+    </IfcAxis2Placement3D>
+    <IfcRepresentationMap id="i122">
+      <MappingOrigin>
+        <IfcAxis2Placement3D ref="i121" xsi:nil="true"/>
+      </MappingOrigin>
+      <MappedRepresentation>
+        <IfcShapeRepresentation ref="i120" xsi:nil="true"/>
+      </MappedRepresentation>
+    </IfcRepresentationMap>
+    <IfcColumnType id="i123">
+      <GlobalId>35MW8GMxX2of5Zr_CDPPpB</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Structural Columns : UC-Universal Columns-Column : UC356x368x129</Name>
+      <HasPropertySets exp:cType="set">
+        <IfcPropertySet ref="i211" xsi:nil="true"/>
+        <IfcPropertySet ref="i212" xsi:nil="true"/>
+        <IfcPropertySet ref="i213" xsi:nil="true"/>
+        <IfcPropertySet ref="i214" xsi:nil="true"/>
+        <IfcPropertySet ref="i215" xsi:nil="true"/>
+        <IfcPropertySet ref="i216" xsi:nil="true"/>
+      </HasPropertySets>
+      <RepresentationMaps exp:cType="list">
+        <IfcRepresentationMap exp:pos="0" ref="i122" xsi:nil="true"/>
+      </RepresentationMaps>
+      <Tag>72808</Tag>
+      <PredefinedType>column</PredefinedType>
+    </IfcColumnType>
+    <IfcMaterial id="i124">
+      <Name>Metal - Steel - 345 MPa</Name>
+      <Category>Materials</Category>
+    </IfcMaterial>
+    <IfcClassification id="i125">
+      <Source>https://www.csiresources.org/standards/uniformat</Source>
+      <Edition>1998</Edition>
+      <Name>Uniformat</Name>
+    </IfcClassification>
+    <IfcCartesianTransformationOperator3D id="i126">
+      <LocalOrigin>
+        <IfcCartesianPoint ref="i3" xsi:nil="true"/>
+      </LocalOrigin>
+      <Scale>1</Scale>
+    </IfcCartesianTransformationOperator3D>
+    <IfcMappedItem id="i127">
+      <MappingSource>
+        <IfcRepresentationMap ref="i122" xsi:nil="true"/>
+      </MappingSource>
+      <MappingTarget>
+        <IfcCartesianTransformationOperator3D ref="i126" xsi:nil="true"/>
+      </MappingTarget>
+    </IfcMappedItem>
+    <IfcShapeRepresentation id="i128">
+      <ContextOfItems>
+        <IfcGeometricRepresentationSubContext ref="i82" xsi:nil="true"/>
+      </ContextOfItems>
+      <RepresentationIdentifier>Body</RepresentationIdentifier>
+      <RepresentationType>MappedRepresentation</RepresentationType>
+      <Items exp:cType="set">
+        <IfcMappedItem ref="i127" xsi:nil="true"/>
+      </Items>
+    </IfcShapeRepresentation>
+    <IfcCartesianPoint id="i129">
+      <Coordinates exp:cType="list">
+        <IfcLengthMeasure exp:pos="0">-184.30000000000015</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="1">-177.79999999999995</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="2">0</IfcLengthMeasure>
+      </Coordinates>
+    </IfcCartesianPoint>
+    <IfcBoundingBox id="i130">
+      <Corner>
+        <IfcCartesianPoint ref="i129" xsi:nil="true"/>
+      </Corner>
+      <XDim>368.59999999999997</XDim>
+      <YDim>355.59999999999997</YDim>
+      <ZDim>3600.0000274658205</ZDim>
+    </IfcBoundingBox>
+    <IfcShapeRepresentation id="i131">
+      <ContextOfItems>
+        <IfcGeometricRepresentationSubContext ref="i83" xsi:nil="true"/>
+      </ContextOfItems>
+      <RepresentationIdentifier>Box</RepresentationIdentifier>
+      <RepresentationType>BoundingBox</RepresentationType>
+      <Items exp:cType="set">
+        <IfcBoundingBox ref="i130" xsi:nil="true"/>
+      </Items>
+    </IfcShapeRepresentation>
+    <IfcProductDefinitionShape id="i132">
+      <Representations exp:cType="list">
+        <IfcShapeRepresentation exp:pos="0" ref="i128" xsi:nil="true"/>
+        <IfcShapeRepresentation exp:pos="1" ref="i131" xsi:nil="true"/>
+      </Representations>
+    </IfcProductDefinitionShape>
+    <IfcCartesianPoint id="i133">
+      <Coordinates exp:cType="list">
+        <IfcLengthMeasure exp:pos="0">-10801.999441595324</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="1">6828.9386199378587</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="2">0</IfcLengthMeasure>
+      </Coordinates>
+    </IfcCartesianPoint>
+    <IfcAxis2Placement3D id="i134">
+      <Location>
+        <IfcCartesianPoint ref="i133" xsi:nil="true"/>
+      </Location>
+      <Axis>
+        <IfcDirection ref="i9" xsi:nil="true"/>
+      </Axis>
+      <RefDirection>
+        <IfcDirection ref="i6" xsi:nil="true"/>
+      </RefDirection>
+    </IfcAxis2Placement3D>
+    <IfcLocalPlacement id="i135">
+      <PlacementRelTo>
+        <IfcLocalPlacement ref="i95" xsi:nil="true"/>
+      </PlacementRelTo>
+      <RelativePlacement>
+        <IfcAxis2Placement3D ref="i134" xsi:nil="true"/>
+      </RelativePlacement>
+    </IfcLocalPlacement>
+    <IfcColumn id="i136">
+      <GlobalId>2Ci2k7uxXCqAqqsxOmESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Structural Columns : UC-Universal Columns-Column : UC356x368x129</Name>
+      <ObjectType>UC-Universal Columns-Column:UC356x368x129</ObjectType>
+      <ObjectPlacement>
+        <IfcLocalPlacement ref="i135" xsi:nil="true"/>
+      </ObjectPlacement>
+      <Representation>
+        <IfcProductDefinitionShape ref="i132" xsi:nil="true"/>
+      </Representation>
+      <Tag>123069</Tag>
+      <PredefinedType>column</PredefinedType>
+    </IfcColumn>
+    <IfcQuantityLength id="i137">
+      <Name>Length</Name>
+      <LengthValue>3600.0000000011578</LengthValue>
+    </IfcQuantityLength>
+    <IfcQuantityArea id="i138">
+      <Name>CrossSectionArea</Name>
+      <AreaValue>0.17690582217599959</AreaValue>
+    </IfcQuantityArea>
+    <IfcQuantityArea id="i139">
+      <Name>OuterSurfaceArea</Name>
+      <AreaValue>25260.288385863987</AreaValue>
+    </IfcQuantityArea>
+    <IfcQuantityVolume id="i140">
+      <Name>GrossVolume</Name>
+      <VolumeValue>636.86095983380335</VolumeValue>
+    </IfcQuantityVolume>
+    <IfcQuantityVolume id="i141">
+      <Name>NetVolume</Name>
+      <VolumeValue>0.058446864000018847</VolumeValue>
+    </IfcQuantityVolume>
+    <IfcElementQuantity id="i142">
+      <GlobalId>23jfZ9MOXFixGMvQ_wDO64</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Qto_ColumnBaseQuantities</Name>
+      <Quantities exp:cType="set">
+        <IfcQuantityLength ref="i137" xsi:nil="true"/>
+        <IfcQuantityArea ref="i138" xsi:nil="true"/>
+        <IfcQuantityArea ref="i139" xsi:nil="true"/>
+        <IfcQuantityVolume ref="i140" xsi:nil="true"/>
+        <IfcQuantityVolume ref="i141" xsi:nil="true"/>
+      </Quantities>
+    </IfcElementQuantity>
+    <IfcRelDefinesByProperties id="i143">
+      <GlobalId>3tr9s5lEnCXhQPZlSxYxkk</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcElementQuantity ref="i142" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySingleValue id="i144">
+      <Name>Reference</Name>
+      <NominalValue>
+        <ifcidentifier-wrapper>UC-Universal Columns-Column:UC356x368x129</ifcidentifier-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i145">
+      <Name>IsExternal</Name>
+      <NominalValue>
+        <ifcboolean-wrapper>false</ifcboolean-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i146">
+      <Name>LoadBearing</Name>
+      <NominalValue>
+        <ifcboolean-wrapper>true</ifcboolean-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySet id="i147">
+      <GlobalId>1v8kAgQe91fQOLurXr595Z</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Pset_ColumnCommon</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i144" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i145" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i146" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i148">
+      <GlobalId>3sH6j6XYz48PEx0xwbCiBu</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Pset_EnvironmentalImpactIndicators</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i144" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySingleValue id="i149">
+      <Name>Reference</Name>
+      <NominalValue>
+        <ifclabel-wrapper>UC-Universal Columns-Column:UC356x368x129</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySet id="i150">
+      <GlobalId>0TMk$eCYjEIxP_lQipsA7f</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Pset_ReinforcementBarPitchOfColumn</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i149" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i151">
+      <GlobalId>3RNgbERyr0XP94dDT8713Y</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i147" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcRelDefinesByProperties id="i152">
+      <GlobalId>37EaSUaaP3YPxdJli8w$Yi</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i148" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcRelDefinesByProperties id="i153">
+      <GlobalId>3B0XeHE4r4WAnyLc$U74NO</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i150" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySingleValue id="i154">
+      <Name>Base Level</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Level: 01 - Entry Level</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i155">
+      <Name>Base Offset</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>0</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i156">
+      <Name>Column Location Mark</Name>
+      <NominalValue>
+        <ifctext-wrapper>.75-E</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i157">
+      <Name>Column Style</Name>
+      <NominalValue>
+        <ifcidentifier-wrapper>Vertical</ifcidentifier-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i158">
+      <Name>Level</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Level: 01 - Entry Level</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i159">
+      <Name>Moves With Grids</Name>
+      <NominalValue>
+        <ifcboolean-wrapper>true</ifcboolean-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i160">
+      <Name>Top Level</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Level: 02 - Floor</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i161">
+      <Name>Top Offset</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>-200</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i162">
+      <Name>Phase Created</Name>
+      <NominalValue>
+        <ifclabel-wrapper>New Construction</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i163">
+      <Name>Enable Analytical Model</Name>
+      <NominalValue>
+        <ifcboolean-wrapper>true</ifcboolean-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i164">
+      <Name>Structural Material</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Metal - Steel - 345 MPa</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i165">
+      <Name>Length</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>3600.0000000011578</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i166">
+      <Name>Volume</Name>
+      <NominalValue>
+        <ifcvolumemeasure-wrapper>0.058446864000018847</ifcvolumemeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i167">
+      <Name>Category</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Structural Columns</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i168">
+      <Name>Family</Name>
+      <NominalValue>
+        <ifclabel-wrapper>UC-Universal Columns-Column: UC356x368x129</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i169">
+      <Name>Family and Type</Name>
+      <NominalValue>
+        <ifclabel-wrapper>UC-Universal Columns-Column: UC356x368x129</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i170">
+      <Name>Type</Name>
+      <NominalValue>
+        <ifclabel-wrapper>UC-Universal Columns-Column: UC356x368x129</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i171">
+      <Name>Type Id</Name>
+      <NominalValue>
+        <ifclabel-wrapper>UC-Universal Columns-Column: UC356x368x129</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i172">
+      <Name>Centroid Horizontal</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>184.30000000000004</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i173">
+      <Name>Centroid Vertical</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>177.80000000000001</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i174">
+      <Name>Flange Thickness</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>17.5</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i175">
+      <Name>Height</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>355.60000000000002</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i176">
+      <Name>Web Fillet</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>15.200000000000001</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i177">
+      <Name>Web Thickness</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>10.4</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i178">
+      <Name>Width</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>368.60000000000008</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i179">
+      <Name>Elastic Modulus strong axis</Name>
+      <NominalValue>
+        <ifcvolumemeasure-wrapper>0.0022640000000000008</ifcvolumemeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i180">
+      <Name>Elastic Modulus weak axis</Name>
+      <NominalValue>
+        <ifcvolumemeasure-wrapper>0.00079300000000000019</ifcvolumemeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i181">
+      <Name>Moment of Inertia strong axis</Name>
+      <NominalValue>
+        <ifcmomentofinertiameasure-wrapper>0.0004024600000000001</ifcmomentofinertiameasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i182">
+      <Name>Moment of Inertia weak axis</Name>
+      <NominalValue>
+        <ifcmomentofinertiameasure-wrapper>0.00014611000000000005</ifcmomentofinertiameasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i183">
+      <Name>Nominal Weight</Name>
+      <NominalValue>
+        <ifcreal-wrapper>128.99952118205505</ifcreal-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i184">
+      <Name>Plastic Modulus strong axis</Name>
+      <NominalValue>
+        <ifcvolumemeasure-wrapper>0.0024790000000000007</ifcvolumemeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i185">
+      <Name>Plastic Modulus weak axis</Name>
+      <NominalValue>
+        <ifcvolumemeasure-wrapper>0.0011990000000000002</ifcvolumemeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i186">
+      <Name>Section Area</Name>
+      <NominalValue>
+        <ifcareameasure-wrapper>0.016399999999999998</ifcareameasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i187">
+      <Name>Torsional Moment of Inertia</Name>
+      <NominalValue>
+        <ifcmomentofinertiameasure-wrapper>1.5300000000000004E-06</ifcmomentofinertiameasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i188">
+      <Name>Warping Constant</Name>
+      <NominalValue>
+        <ifcreal-wrapper>4180000</ifcreal-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i189">
+      <Name>Section Shape</Name>
+      <NominalValue>
+        <ifcinteger-wrapper>8</ifcinteger-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i190">
+      <Name>Assembly Code</Name>
+      <NominalValue>
+        <ifctext-wrapper></ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i191">
+      <Name>Assembly Description</Name>
+      <NominalValue>
+        <ifctext-wrapper></ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i192">
+      <Name>Code Name</Name>
+      <NominalValue>
+        <ifctext-wrapper>BS 5950-1:2000</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i193">
+      <Name>OmniClass Number</Name>
+      <NominalValue>
+        <ifctext-wrapper></ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i194">
+      <Name>OmniClass Title</Name>
+      <NominalValue>
+        <ifctext-wrapper></ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i195">
+      <Name>Section Name Key</Name>
+      <NominalValue>
+        <ifctext-wrapper>UC356x368x129</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i196">
+      <Name>Type Comments</Name>
+      <NominalValue>
+        <ifctext-wrapper></ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i197">
+      <Name>Type Name</Name>
+      <NominalValue>
+        <ifctext-wrapper>UC356x368x129</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i198">
+      <Name>Family Name</Name>
+      <NominalValue>
+        <ifctext-wrapper>UC-Universal Columns-Column</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySet id="i199">
+      <GlobalId>2Ci2k7uxXCqAqqtQ8mESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Constraints</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i154" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i155" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i156" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i157" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i158" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i159" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i160" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i161" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i200">
+      <GlobalId>2Ci2k7uxXCqAqqtA8mESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i199" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i201">
+      <GlobalId>2Ci2k7uxXCqAqqtRGmESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Dimensions</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i165" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i166" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i202">
+      <GlobalId>2Ci2k7uxXCqAqqtBGmESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i201" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i203">
+      <GlobalId>2Ci2k7uxXCqAqqtR0mESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Materials and Finishes</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i164" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i204">
+      <GlobalId>2Ci2k7uxXCqAqqtB0mESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i203" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i205">
+      <GlobalId>0sqcLbdLr7GOSDfAAYWRNd</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Other</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i167" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i168" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i169" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i170" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i171" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i206">
+      <GlobalId>006SnKej980xapVeNS5acg</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i205" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i207">
+      <GlobalId>2Ci2k7uxXCqAqqtRamESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Phasing</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i162" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i208">
+      <GlobalId>2Ci2k7uxXCqAqqtBamESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i207" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i209">
+      <GlobalId>2Ci2k7uxXCqAqqtRimESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Structural</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i163" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i210">
+      <GlobalId>2Ci2k7uxXCqAqqtBimESO$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i209" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i211">
+      <GlobalId>35MW8GMxX2of5ZqU8DPPpB</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Identity Data</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i190" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i191" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i192" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i193" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i194" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i195" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i196" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i197" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i212">
+      <GlobalId>2e4VQB9KrCj8J0V1wGFkJt</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Other</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i167" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i198" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i213">
+      <GlobalId>35MW8GMxX2of5ZqUuDPPpB</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Structural</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i189" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i214">
+      <GlobalId>35MW8GMxX2of5ZqVuDPPpB</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Structural Analysis</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i179" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i180" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i181" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i182" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i183" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i184" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i185" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i186" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i187" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i188" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i215">
+      <GlobalId>35MW8GMxX2of5ZqPqDPPpB</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Structural Section Geometry</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i172" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i173" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i174" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i175" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i176" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i177" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i178" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i216">
+      <GlobalId>37vd7n_fn4KPhU3Ao2nKIz</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Pset_ColumnCommon</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i145" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i146" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcCartesianPoint id="i217">
+      <Coordinates exp:cType="list">
+        <IfcLengthMeasure exp:pos="0">9201.9994415955207</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="1">22635.061380061848</IfcLengthMeasure>
+        <IfcLengthMeasure exp:pos="2">0</IfcLengthMeasure>
+      </Coordinates>
+    </IfcCartesianPoint>
+    <IfcAxis2Placement3D id="i218">
+      <Location>
+        <IfcCartesianPoint ref="i217" xsi:nil="true"/>
+      </Location>
+    </IfcAxis2Placement3D>
+    <IfcLocalPlacement id="i219">
+      <RelativePlacement>
+        <IfcAxis2Placement3D ref="i218" xsi:nil="true"/>
+      </RelativePlacement>
+    </IfcLocalPlacement>
+    <IfcSite id="i220">
+      <GlobalId>3bmyaIWCvEHufVx1c33vn2</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Default</Name>
+      <ObjectPlacement>
+        <IfcLocalPlacement ref="i219" xsi:nil="true"/>
+      </ObjectPlacement>
+      <CompositionType>element</CompositionType>
+      <RefLatitude exp:cType="list">
+        <exp:integer-wrapper exp:pos="0">42</exp:integer-wrapper>
+        <exp:integer-wrapper exp:pos="1">12</exp:integer-wrapper>
+        <exp:integer-wrapper exp:pos="2">46</exp:integer-wrapper>
+        <exp:integer-wrapper exp:pos="3">799999</exp:integer-wrapper>
+      </RefLatitude>
+      <RefLongitude exp:cType="list">
+        <exp:integer-wrapper exp:pos="0">-71</exp:integer-wrapper>
+        <exp:integer-wrapper exp:pos="1">-1</exp:integer-wrapper>
+        <exp:integer-wrapper exp:pos="2">-58</exp:integer-wrapper>
+        <exp:integer-wrapper exp:pos="3">-799999</exp:integer-wrapper>
+      </RefLongitude>
+      <RefElevation>0</RefElevation>
+    </IfcSite>
+    <IfcPropertySingleValue id="i221">
+      <Name>Reference</Name>
+      <NominalValue>
+        <ifcidentifier-wrapper>Project Information</ifcidentifier-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySet id="i222">
+      <GlobalId>3mQBaTfuH9QBHDaT_BQvNl</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Pset_SiteCommon</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i221" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i223">
+      <GlobalId>1tcoTaaJH7h9xE4QvWKuYC</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcSite ref="i220" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i222" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySingleValue id="i224">
+      <Name>Author</Name>
+      <NominalValue>
+        <ifctext-wrapper></ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i225">
+      <Name>Building Name</Name>
+      <NominalValue>
+        <ifctext-wrapper></ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i226">
+      <Name>Organization Description</Name>
+      <NominalValue>
+        <ifctext-wrapper></ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i227">
+      <Name>Organization Name</Name>
+      <NominalValue>
+        <ifctext-wrapper></ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i228">
+      <Name>Category</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Project Information</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i229">
+      <Name>Client Name</Name>
+      <NominalValue>
+        <ifctext-wrapper>J. Smith</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i230">
+      <Name>Project Address</Name>
+      <NominalValue>
+        <ifctext-wrapper>123 Main Street, Anytown, MA 12345</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i231">
+      <Name>Project Issue Date</Name>
+      <NominalValue>
+        <ifctext-wrapper>01 April 2009</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i232">
+      <Name>Project Name</Name>
+      <NominalValue>
+        <ifctext-wrapper>Technical School</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i233">
+      <Name>Project Number</Name>
+      <NominalValue>
+        <ifctext-wrapper>2009-01</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i234">
+      <Name>Project Status</Name>
+      <NominalValue>
+        <ifctext-wrapper>Initial Draft</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySet id="i235">
+      <GlobalId>3mQBaTfuH9QBHDd2IBQvNl</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Identity Data</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i224" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i225" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i226" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i227" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i236">
+      <GlobalId>3mQBaTfuH9QBHDdIIBQvNl</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcSite ref="i220" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i235" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i237">
+      <GlobalId>1yh$$Ck$z5_ODrKpKbKX5w</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Other</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i228" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i229" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i230" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i231" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i232" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i233" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i234" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i238">
+      <GlobalId>3R9A6xfAv23Rs53aSB6rUA</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcSite ref="i220" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i237" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySingleValue id="i239">
+      <Name>Reference</Name>
+      <NominalValue>
+        <ifcidentifier-wrapper>Level:8mm Head</ifcidentifier-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i240">
+      <Name>AboveGround</Name>
+      <NominalValue>
+        <ifclogical-wrapper>unknown</ifclogical-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySet id="i241">
+      <GlobalId>35r2O_4kTAf8AbWn6_VCl2</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Pset_BuildingStoreyCommon</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i239" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i240" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i242">
+      <GlobalId>1Hw0EHVBT7vf_nYrU4m1G6</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i241" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySingleValue id="i243">
+      <Name>Elevation</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>0</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i244">
+      <Name>Computation Height</Name>
+      <NominalValue>
+        <ifclengthmeasure-wrapper>0</ifclengthmeasure-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i245">
+      <Name>Building Story</Name>
+      <NominalValue>
+        <ifcboolean-wrapper>true</ifcboolean-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i246">
+      <Name>Name</Name>
+      <NominalValue>
+        <ifctext-wrapper>01 - Entry Level</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i247">
+      <Name>Structural</Name>
+      <NominalValue>
+        <ifcboolean-wrapper>false</ifcboolean-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i248">
+      <Name>Category</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Levels</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i249">
+      <Name>Family</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Level: 8mm Head</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i250">
+      <Name>Family and Type</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Level: 8mm Head</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i251">
+      <Name>Type</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Level: 8mm Head</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i252">
+      <Name>Type Id</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Level: 8mm Head</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i253">
+      <Name>Elevation Base</Name>
+      <NominalValue>
+        <ifcidentifier-wrapper>Project Base Point</ifcidentifier-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i254">
+      <Name>Color</Name>
+      <NominalValue>
+        <ifcinteger-wrapper>0</ifcinteger-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i255">
+      <Name>Line Pattern</Name>
+      <NominalValue>
+        <ifclabel-wrapper>Solid</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i256">
+      <Name>Line Weight</Name>
+      <NominalValue>
+        <ifcidentifier-wrapper>1</ifcidentifier-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i257">
+      <Name>Symbol</Name>
+      <NominalValue>
+        <ifclabel-wrapper>M_Level Head - Circle: M_Level Head - Circle</ifclabel-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i258">
+      <Name>Symbol at End 1 Default</Name>
+      <NominalValue>
+        <ifcboolean-wrapper>false</ifcboolean-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i259">
+      <Name>Symbol at End 2 Default</Name>
+      <NominalValue>
+        <ifcboolean-wrapper>true</ifcboolean-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i260">
+      <Name>Type Name</Name>
+      <NominalValue>
+        <ifctext-wrapper>8mm Head</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i261">
+      <Name>Family Name</Name>
+      <NominalValue>
+        <ifctext-wrapper>Level</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySet id="i262">
+      <GlobalId>35r2O_4kTAf8AbZkc_VCl2</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Constraints</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i243" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i263">
+      <GlobalId>35r2O_4kTAf8AbZ_c_VCl2</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i262" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i264">
+      <GlobalId>35r2O_4kTAf8AbZl__VCl2</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Dimensions</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i244" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i265">
+      <GlobalId>35r2O_4kTAf8AbZ$__VCl2</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i264" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i266">
+      <GlobalId>35r2O_4kTAf8AbZlo_VCl2</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Identity Data</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i245" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i246" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i247" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i267">
+      <GlobalId>35r2O_4kTAf8AbZ$o_VCl2</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i266" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i268">
+      <GlobalId>1vrNFXuVX0DPukA5XlNq2i</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Other</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i248" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i249" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i250" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i251" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i252" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i269">
+      <GlobalId>1ispQ3eUz2v9NDoRm$lftS</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i268" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i270">
+      <GlobalId>1qv6ynVKX7xf87bGC8vNiV</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Constraints(Type)</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i253" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i271">
+      <GlobalId>1qv6ynVKX7xf87bH88vNiV</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Graphics(Type)</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i254" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i255" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i256" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i257" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i258" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i259" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i272">
+      <GlobalId>1qv6ynVKX7xf87bHO8vNiV</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Identity Data(Type)</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i260" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i273">
+      <GlobalId>1yZuRf5BP8n8wE41eTFIK6</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Other(Type)</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i248" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i261" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelContainedInSpatialStructure id="i274">
+      <GlobalId>35r2O_4kTAf8AbYFo_VCl2</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedElements exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedElements>
+      <RelatingStructure>
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatingStructure>
+    </IfcRelContainedInSpatialStructure>
+    <IfcRelAggregates id="i275">
+      <GlobalId>1DUvV01vT6LRrK7qVnXNop</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatingObject>
+        <IfcProject ref="i87" xsi:nil="true"/>
+      </RelatingObject>
+      <RelatedObjects exp:cType="set">
+        <IfcSite ref="i220" xsi:nil="true"/>
+      </RelatedObjects>
+    </IfcRelAggregates>
+    <IfcRelAggregates id="i276">
+      <GlobalId>3FP$Dx4Br5Zej32YZdbUSB</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatingObject>
+        <IfcSite ref="i220" xsi:nil="true"/>
+      </RelatingObject>
+      <RelatedObjects exp:cType="set">
+        <IfcBuilding ref="i89" xsi:nil="true"/>
+      </RelatedObjects>
+    </IfcRelAggregates>
+    <IfcRelAggregates id="i277">
+      <GlobalId>3mQBaTfuH9QBHDcYQBQvNl</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatingObject>
+        <IfcBuilding ref="i89" xsi:nil="true"/>
+      </RelatingObject>
+      <RelatedObjects exp:cType="set">
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatedObjects>
+    </IfcRelAggregates>
+    <IfcPropertySingleValue id="i278">
+      <Name>NumberOfStoreys</Name>
+      <NominalValue>
+        <ifcinteger-wrapper>1</ifcinteger-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i279">
+      <Name>IsLandmarked</Name>
+      <NominalValue>
+        <ifclogical-wrapper>unknown</ifclogical-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySet id="i280">
+      <GlobalId>3mQBaTfuH9QBHDaSwBQvNl</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Pset_BuildingCommon</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i221" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i278" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i279" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i281">
+      <GlobalId>2GjiWe9prCAQUwem$mtL3B</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Pset_BuildingElementProxyCommon</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i145" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i221" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i282">
+      <GlobalId>3mQBaTfuH9QBHDaScBQvNl</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Pset_BuildingStoreyCommon</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i221" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i240" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcPropertySet id="i283">
+      <GlobalId>0RQJqdPMbCKg9bQhH1C$_2</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Pset_BuildingSystemCommon</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i221" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i284">
+      <GlobalId>0OaO$EVBbBWh1kjl8G7iSQ</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuilding ref="i89" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i280" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcRelDefinesByProperties id="i285">
+      <GlobalId>1gxgRk0j96tPKCKCRjEG4o</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuilding ref="i89" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i281" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcRelDefinesByProperties id="i286">
+      <GlobalId>37azvY0w5EOQgHcewUENzQ</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuilding ref="i89" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i282" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcRelDefinesByProperties id="i287">
+      <GlobalId>3RturMslDCOhNC9qxbMsDi</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuilding ref="i89" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i283" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySingleValue id="i288">
+      <Name>Client Name</Name>
+      <NominalValue>
+        <ifctext-wrapper>J. Smith</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i289">
+      <Name>Project Address</Name>
+      <NominalValue>
+        <ifctext-wrapper>123 Main Street, Anytown, MA 12345</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i290">
+      <Name>Project Issue Date</Name>
+      <NominalValue>
+        <ifctext-wrapper>01 April 2009</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i291">
+      <Name>Project Name</Name>
+      <NominalValue>
+        <ifctext-wrapper>Technical School</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i292">
+      <Name>Project Number</Name>
+      <NominalValue>
+        <ifctext-wrapper>2009-01</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySingleValue id="i293">
+      <Name>Project Status</Name>
+      <NominalValue>
+        <ifctext-wrapper>Initial Draft</ifctext-wrapper>
+      </NominalValue>
+    </IfcPropertySingleValue>
+    <IfcPropertySet id="i294">
+      <GlobalId>3t_AcxcJH6a8tWUyXOehGf</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Identity Data</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i224" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i225" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i226" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i227" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i295">
+      <GlobalId>1U4e4KfCnC18GOjhMC_4x$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuilding ref="i89" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i294" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcPropertySet id="i296">
+      <GlobalId>3rd_zNvwfChR2iiQ5AiKW7</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <Name>Other</Name>
+      <HasProperties exp:cType="set">
+        <IfcPropertySingleValue ref="i228" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i288" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i289" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i290" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i291" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i292" xsi:nil="true"/>
+        <IfcPropertySingleValue ref="i293" xsi:nil="true"/>
+      </HasProperties>
+    </IfcPropertySet>
+    <IfcRelDefinesByProperties id="i297">
+      <GlobalId>2$$BvBFT9A_RAaQvWIWH1E</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuilding ref="i89" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i296" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcRelAssociatesMaterial id="i298">
+      <GlobalId>1zk9nL1snA3giMtXNPIYVH</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumnType ref="i123" xsi:nil="true"/>
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingMaterial>
+        <IfcMaterial ref="i124" xsi:nil="true"/>
+      </RelatingMaterial>
+    </IfcRelAssociatesMaterial>
+    <IfcRelDefinesByType id="i299">
+      <GlobalId>3egpeb1FH9gPTvQFazW8fx</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcColumn ref="i136" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingType>
+        <IfcColumnType ref="i123" xsi:nil="true"/>
+      </RelatingType>
+    </IfcRelDefinesByType>
+    <IfcRelDefinesByProperties id="i300">
+      <GlobalId>1AMB$CyIP9Kx$SPgR1HeY$</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i270" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcRelDefinesByProperties id="i301">
+      <GlobalId>1QiZmK66X8uOwNI9GL6TaZ</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i271" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcRelDefinesByProperties id="i302">
+      <GlobalId>3SFMEpaQjAg82PeeSWmdpJ</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i272" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+    <IfcRelDefinesByProperties id="i303">
+      <GlobalId>3MfMROxBb6lwBPGu3qWmeQ</GlobalId>
+      <OwnerHistory>
+        <IfcOwnerHistory ref="i20" xsi:nil="true"/>
+      </OwnerHistory>
+      <RelatedObjects exp:cType="set">
+        <IfcBuildingStorey ref="i96" xsi:nil="true"/>
+      </RelatedObjects>
+      <RelatingPropertyDefinition>
+        <IfcPropertySet ref="i273" xsi:nil="true"/>
+      </RelatingPropertyDefinition>
+    </IfcRelDefinesByProperties>
+  </ifc:uos>
+
+</doc:iso_10303_28>
