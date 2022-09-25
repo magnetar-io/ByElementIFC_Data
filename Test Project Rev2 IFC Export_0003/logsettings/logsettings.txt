@@ -1,0 +1,7 @@
+Model Categories yes
+Views yes
+Schedules yes
+Details no
+Schedules yes
+Links no
+Imported Categories no
